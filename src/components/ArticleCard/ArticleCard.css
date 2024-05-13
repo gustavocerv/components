@@ -1,0 +1,52 @@
+/* TODO:
+  Fill out this component according to the README.
+*/
+
+.article-card {
+  /* code me */
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 360px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-card .article-card-header time {
+  /* code me */
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #A1A1AA;
+  border-left: 4px solid #e4e4e7;
+  padding-left: 8px;
+}
+
+.article-card .article-card-header h2 {
+  /* code me */
+  font-size: 24px;
+  text-transform: capitalize;
+  margin: 16px 0px;
+  font-weight: bold;
+}
+
+.article-card p {
+  /* code me */
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0px 0px 16px 0px;
+}
+
+.article-card a {
+  /* code me */
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.article-card a:hover {
+  /* code me */
+  text-decoration: underline;
+}

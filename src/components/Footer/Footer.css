@@ -1,0 +1,41 @@
+/* TODO:
+  Fill out this component according to the README.
+*/
+
+.footer {
+  /* finish me */
+display: flex;
+flex-direction: row;
+justify-items: center;
+justify-content: space-between;
+background-color: #f8f9fa;
+padding: 24px 40px;
+border-top: 1px solid #e9ecef;
+}
+
+.footer ul {
+  /* finish me */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.footer ul a {
+  /* finish me */
+  color: #555;
+  text-decoration: none;
+}
+
+.footer ul a:hover {
+  /* finish me */
+  color: #333;
+  text-decoration: underline;
+}
+
+.footer p {
+  /* finish me */
+  color: #777;
+  font-size: 14px;
+  margin: 0;
+}
